@@ -45,13 +45,11 @@ footer {
 }
 
 .social-networks li {
-    margin: 20px 50px;
+    margin: 20px 40px; /* 20px wide, instead of 40px, is good for mobile... */
 }
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
     color: #ffffff;
 }
 
