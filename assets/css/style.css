@@ -2,3 +2,29 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+
+/* Top Navigation */
+
+nav {
+    background-color: #0099cc;
+}
+
+nav .navbar-nav li a {
+  color: #ffffff !important;
+}
+
+.dropdown-menu {
+    background-color: #0099cc;
+}
+
+.navbar-toggler {
+  border-color: #ffffff !important;
+}
+
+#navIcon {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+/* /.topNavigation */
