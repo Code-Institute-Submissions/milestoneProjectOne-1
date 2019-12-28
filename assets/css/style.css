@@ -3,8 +3,11 @@ html, body {
     padding: 0;
 }
 
+header {
+    height: 300px;
+}
 
-/* Top Navigation */
+/* ------------------- Top Navigation ------------------- */
 
 nav {
     background-color: #0099cc;
@@ -27,4 +30,29 @@ nav .navbar-nav li a {
     font-size: 28px;
 }
 
-/* /.topNavigation */
+/* ------------------- /.topNavigation ------------------- */
+
+
+/* ------------------- Footer ------------------- */
+
+footer {
+    background-color: #0099cc;
+}
+
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    margin: 20px 50px;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffffff;
+}
+
+/* ------------------- /.footer ------------------- */
