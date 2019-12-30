@@ -1,10 +1,18 @@
-html, body {
+html, body, section, div {
     margin: 0;
     padding: 0;
 }
 
 body {
     background-color: #ececec;
+}
+
+header {
+    background-color: #000000;
+}
+
+main {
+    background-color: #ffffff;
 }
 
 /* ------------------- Work styling ------------------- */
