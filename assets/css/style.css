@@ -3,9 +3,20 @@ html, body {
     padding: 0;
 }
 
-header {
-    height: 300px;
+body {
+    background-color: #ececec;
 }
+
+/* ------------------- Work styling ------------------- */
+
+.workSection {
+    background-color: #ffffff;
+    border: 1px solid;
+}
+
+
+/* ------------------- /.workStyling ------------------- */
+
 
 /* ------------------- Top Navigation ------------------- */
 
