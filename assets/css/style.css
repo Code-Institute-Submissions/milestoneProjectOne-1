@@ -14,14 +14,13 @@ header {
 }
 
 main {
-    background-color: #ffffff;
+    background-color: #ececec;
     padding: 0;
 }
 
 /* ------------------- Work styling ------------------- */
 
 .workSection {
-    background-color: #ececec;
     border: 1px solid;
     margin: 0;
     padding: 0;
@@ -36,7 +35,7 @@ main {
 /* ------------------- Text Sections ------------------- */
 
 .textSection {
-    backrgound-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .homepageListIcon {
