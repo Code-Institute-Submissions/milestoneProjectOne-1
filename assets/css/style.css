@@ -38,16 +38,30 @@ main {
 .homepageListIcon {
     color:#0099cc;
     font-size: 24px;
+    vertical-align: middle;
 }
 
 .sectionHeading {
     color:#0099cc;
-    margin: 20px;
+    margin: 20px 20px 20px 20px;
     text-align: center;
     font-family: 'Baloo Bhai', sans-serif;
     text-transform: uppercase;
     font-size: 40px;
     text-shadow: 1px 1px rgb(77, 76, 76);
+}
+
+.textSection p {
+    margin: 0 30px 16px 30px;
+}
+
+.textSection ul {
+    margin-left: 100px;
+    margin-right: 100px;;
+}
+
+.textSection li {
+    margin-bottom: 16px;
 }
 
 /* ------------------- /.other ------------------- */
