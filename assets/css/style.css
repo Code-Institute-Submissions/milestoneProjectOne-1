@@ -45,7 +45,6 @@ main {
 .homepageListIcon {
     color:#0099cc;
     font-size: 24px;
-    vertical-align: middle;
 }
 
 .sectionHeading {
@@ -69,15 +68,7 @@ main {
 .textSection ul {
     margin-left: 100px;
     margin-right: 100px;
-    list-style: none;
-    padding-left: 0;
 }
-
-/*.textSection li::before {
-  content: "•";
-  display: inline-block;
-  vertical-align: middle;
-}*/
 
 .textSection li {
     margin-bottom: 16px;
