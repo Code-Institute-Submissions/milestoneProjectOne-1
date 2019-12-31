@@ -76,6 +76,49 @@ main {
 
 /* ------------------- /.textSections ------------------- */
 
+
+
+/* ------------------- Courses Sections ------------------- */
+
+.coursesHeading {
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+
+.courseDescription {
+    background-color: white;
+    margin: 20px 20px 30px 20px;
+    min-width: 260px;
+    border-radius: 5%;
+}
+
+.courseDescription h5 {
+    margin: 20px 10px 0 10px;
+    text-decoration: underline;
+    font-family: 'Baloo Bhai', sans-serif;
+}
+
+.courseDescription p {
+    margin: 15px 10px 20px 10px;
+}
+
+.courseDescription p span {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.beginnerCourses {
+    background-image: url("../media/images/bachataDance1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ------------------- /.courseSections ------------------- */
+
+
 /* ------------------- Top Navigation ------------------- */
 
 nav {
