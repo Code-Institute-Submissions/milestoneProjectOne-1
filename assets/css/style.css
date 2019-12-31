@@ -21,7 +21,7 @@ main {
 /* ------------------- Work styling ------------------- */
 
 .workSection {
-    background-color: #ffffff;
+    background-color: #ececec;
     border: 1px solid;
     margin: 0;
     padding: 0;
@@ -33,7 +33,11 @@ main {
 
 /* ------------------- /.workStyling ------------------- */
 
-/* ------------------- Other------------------- */
+/* ------------------- Text Sections ------------------- */
+
+.textSection {
+    backrgound-color: #ffffff;
+}
 
 .homepageListIcon {
     color:#0099cc;
@@ -52,7 +56,11 @@ main {
 }
 
 .textSection p {
-    margin: 0 30px 16px 30px;
+    margin: 0 40px 16px 40px;
+}
+
+.textSection p:last-of-type {
+    margin-bottom: 30px;
 }
 
 .textSection ul {
@@ -64,7 +72,7 @@ main {
     margin-bottom: 16px;
 }
 
-/* ------------------- /.other ------------------- */
+/* ------------------- /.textSections ------------------- */
 
 /* ------------------- Top Navigation ------------------- */
 
