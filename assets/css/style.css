@@ -77,6 +77,41 @@ main {
 /* ------------------- /.textSections ------------------- */
 
 
+/* ------------------- What is Bachata ------------------- */
+
+#whatIsBachata {
+    background-image: url("../media/images/bachataDance1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#whatIsBachataContent {
+    background-color: white;
+    margin: 30px 30px 30px 20px;
+    min-width: 260px;
+    border-radius: 5%;
+}
+
+#whatIsBachataContent h3 {
+    text-align: center;
+    margin: 30px 10px 0 10px;
+    font-family: 'Baloo Bhai', sans-serif;
+    text-decoration: underline;
+}
+
+#whatIsBachataContent p {
+    margin: 20px;
+}
+
+#whatIsBachataContent p:last-of-type {
+    margin-bottom: 30px;
+}
+
+/* ------------------- /.whatIsBachata ------------------- */
+
+
 
 /* ------------------- Courses Sections ------------------- */
 
