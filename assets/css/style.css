@@ -108,7 +108,23 @@ main {
     font-size: 14px;
 }
 
-.beginnerCourses {
+#beginnerCourses {
+    background-image: url("../media/images/bachataDance1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#intermediateCourses {
+    background-image: url("../media/images/bachataDance1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#advancedCourses {
     background-image: url("../media/images/bachataDance1.jpg");
     background-position: center;
     background-repeat: no-repeat;
