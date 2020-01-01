@@ -36,12 +36,49 @@ main {
 
 /* ------------------- /.workStyling ------------------- */
 
-/* ------------------- Slider ------------------- */
+/* ------------------- Schedule ------------------- */
 
+.scheduleContainer {
+    margin-bottom: 30px;
+}
 
+.scheduleDayColumn {
+    margin: 0 3px;
+}
 
-/* ------------------- /.slider ------------------- */
+.scheduleDayColumn h5 {
+    text-align: center;
+    width: 100%;
+    background-color: #0099cc;
+    color: #ffffff;
+    padding: 5px 0;
+    font-family: 'Baloo Bhai', sans-serif;
+    margin-bottom: 0;
+}
 
+.scheduleClass {
+    height: 100px;
+    margin: 3px 0;
+}
+
+.beginnerClass {
+    background-color: #11b837;
+}
+
+.intermediateClass {
+    background-color: #de9313;
+}
+
+.advancedClass {
+    background-color: #ff0000;
+}
+
+.dropinSocial {
+    background-color: #c200c2;
+    height: 300px;
+}
+
+/* ------------------- /.schedule ------------------- */
 
 
 /* ------------------- Text Sections ------------------- */
