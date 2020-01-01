@@ -61,6 +61,18 @@ main {
     margin: 3px 0;
 }
 
+.scheduleSpacer {
+    background-color: #ececec;
+}
+
+#scheduleSpacerTuesday, #scheduleSpacerThursday {
+    height: 197px;
+}
+
+#scheduleSpacerFriday {
+    height: 203px;
+}
+
 .beginnerClass {
     background-color: #11b837;
 }
@@ -76,6 +88,25 @@ main {
 .dropinSocial {
     background-color: #c200c2;
     height: 300px;
+}
+
+.className {
+    color: #ffffff;
+    padding: 5px;
+    display: block;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.classTime {
+    color: #ffffff;
+    display: block;
+    font-size: 80%;
+    padding: 5px;
+}
+
+.socialClassInfo {
+    padding: 5px 0;
 }
 
 /* ------------------- /.schedule ------------------- */
