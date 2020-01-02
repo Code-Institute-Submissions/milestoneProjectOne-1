@@ -37,8 +37,8 @@ main {
 
 #heroImage {
     height: 70vh;
-    /* background-image: url("../media/images/color13.jpeg"); /* altRectangle1mirror.jpg (center) */
-    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/color13.jpeg");
+    /* background-image: url("../media/images/greyHeader.jpg"); */
+    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyHeader.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,8 +174,8 @@ main {
 /* ------------------- What is Bachata ------------------- */
 
 #whatIsBachata {
-    /*background-image: url("../media/images/color3.jpeg"); /* closeUp3.jpeg (center bottom) */
-    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/color3.jpeg");
+    /*background-image: url("../media/images/greyWhatBachata.jpg"); */
+    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyWhatBachata.jpg");
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,8 +240,8 @@ main {
 }
 
 #beginnerCourses {
-    /* background-image: url("../media/images/color11.jpeg"); /* /closeUp1color.jpeg (right bottom) */ 
-    background:linear-gradient(0deg, rgba(17, 184, 55, 0.6), rgba(17, 184, 55, 0.6)), url("../media/images/color11.jpeg");
+    /* background-image: url("../media/images/greyBeginner.jpg"); */ 
+    background:linear-gradient(0deg, rgba(17, 184, 55, 0.6), rgba(17, 184, 55, 0.6)), url("../media/images/greyBeginner.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,8 +249,8 @@ main {
 }
 
 #intermediateCourses {
-    /* background-image: url("../media/images/color9mirror.jpg"); /* altRectangle3.jpeg (left bottom) */ 
-    background:linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)), url("../media/images/color9mirror.jpg");
+    /* background-image: url("../media/images/greyIntermediate.jpg"); */ 
+    background:linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)), url("../media/images/greyIntermediate.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -258,8 +258,8 @@ main {
 }
 
 #advancedCourses {
-    /* background-image: url("../media/images/color15.jpeg"); /* altRectangle2.jpeg (left) */ 
-    background:linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../media/images/color15.jpeg");
+    /* background-image: url("../media/images/greyAdvanced.jpg"); */ 
+    background:linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../media/images/greyAdvanced.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
