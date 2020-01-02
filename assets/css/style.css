@@ -9,10 +9,6 @@ body {
     background-color: #ececec;
 }
 
-header {
-    background-color: #000000;
-}
-
 main {
     background-color: #ececec;
     padding: 0;
@@ -35,6 +31,30 @@ main {
 }
 
 /* ------------------- /.workStyling ------------------- */
+
+
+/* ------------------- Hero Image ------------------- */
+
+#heroImage {
+    min-height: 500px;
+    background-image: url("../media/images/panoramaTest1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ------------------- /.heroImage ------------------- */
+
+
+/* ------------------- Opt-in Box ------------------- */
+
+#optinContainer {
+    background-color: #0099cc;
+}
+
+/* ------------------- /.optinBox ------------------- */
+
 
 /* ------------------- Schedule ------------------- */
 
