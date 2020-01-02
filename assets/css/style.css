@@ -37,7 +37,7 @@ main {
 
 #heroImage {
     height: 70vh;
-    background-image: url("../media/images/heroImage3.jpeg");
+    background-image: url("../media/images/heroImage1.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,10 +172,10 @@ main {
 /* ------------------- What is Bachata ------------------- */
 
 #whatIsBachata {
-    background-image: url("../media/images/whatIsBachata1.jpeg");
+    background-image: url("../media/images/whatIsBachata2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
