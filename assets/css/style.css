@@ -37,31 +37,12 @@ main {
 
 #heroImage {
     height: 70vh;
-    background-image: url("../media/images/color13.jpeg"); /* altRectangle1mirror.jpg (center) */
+    /* background-image: url("../media/images/color13.jpeg"); /* altRectangle1mirror.jpg (center) */
+    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/color13.jpeg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-
-.imageColorOverlayBlue {
-    background-color: #0099cc;
-    opacity: 50%;
-}
-
-.imageColorOverlayGreen {
-    background-color: #11b837;
-    opacity: 50%;
-}
-
-.imageColorOverlayOrange {
-    background-color: #de9313;
-    opacity: 50%;
-}
-
-.imageColorOverlayRed {
-    background-color: #ff0000;
-    opacity: 50%;
 }
 
 /* ------------------- /.heroImage ------------------- */
@@ -119,6 +100,7 @@ main {
 
 .intermediateClass {
     background-color: #de9313;
+    /* background-color: #ffff00; */
 }
 
 .advancedClass {
@@ -192,7 +174,8 @@ main {
 /* ------------------- What is Bachata ------------------- */
 
 #whatIsBachata {
-    background-image: url("../media/images/color3.jpeg"); /* closeUp3.jpeg (center bottom) */
+    /*background-image: url("../media/images/color3.jpeg"); /* closeUp3.jpeg (center bottom) */
+    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/color3.jpeg");
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -257,7 +240,8 @@ main {
 }
 
 #beginnerCourses {
-    background-image: url("../media/images/color11.jpeg"); /* /closeUp1color.jpeg (right bottom) */ 
+    /* background-image: url("../media/images/color11.jpeg"); /* /closeUp1color.jpeg (right bottom) */ 
+    background:linear-gradient(0deg, rgba(17, 184, 55, 0.6), rgba(17, 184, 55, 0.6)), url("../media/images/color3.jpeg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,7 +249,8 @@ main {
 }
 
 #intermediateCourses {
-    background-image: url("../media/images/color9mirror.jpg"); /* altRectangle3.jpeg (left bottom) */ 
+    /* background-image: url("../media/images/color9mirror.jpg"); /* altRectangle3.jpeg (left bottom) */ 
+    background:linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)), url("../media/images/color3.jpeg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,7 +258,8 @@ main {
 }
 
 #advancedCourses {
-    background-image: url("../media/images/color15.jpeg"); /* altRectangle2.jpeg (left) */ 
+    /* background-image: url("../media/images/color15.jpeg"); /* altRectangle2.jpeg (left) */ 
+    background:linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../media/images/color3.jpeg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
