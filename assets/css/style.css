@@ -36,7 +36,7 @@ main {
 /* ------------------- Hero Image ------------------- */
 
 #heroImage {
-    height: 70vh;
+    height: 75vh;
     /* background-image: url("../media/images/greyHeader.jpg"); */
     background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyHeader.jpg");
     background-position: left;
@@ -241,7 +241,8 @@ main {
 
 #beginnerCourses {
     /* background-image: url("../media/images/greyBeginner.jpg"); */ 
-    background:linear-gradient(0deg, rgba(17, 184, 55, 0.6), rgba(17, 184, 55, 0.6)), url("../media/images/greyBeginner.jpg");
+    /*background:linear-gradient(0deg, rgba(17, 184, 55, 0.6), rgba(17, 184, 55, 0.6)), url("../media/images/greyBeginner.jpg");*/
+    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyBeginner.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,7 +251,8 @@ main {
 
 #intermediateCourses {
     /* background-image: url("../media/images/greyIntermediate.jpg"); */ 
-    background:linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)), url("../media/images/greyIntermediate.jpg");
+    /*background:linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)), url("../media/images/greyIntermediate.jpg");*/
+    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyIntermediate.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,7 +261,8 @@ main {
 
 #advancedCourses {
     /* background-image: url("../media/images/greyAdvanced.jpg"); */ 
-    background:linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../media/images/greyAdvanced.jpg");
+    /* background:linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../media/images/greyAdvanced.jpg"); */
+    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyAdvanced.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
