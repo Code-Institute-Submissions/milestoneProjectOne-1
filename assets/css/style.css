@@ -37,7 +37,7 @@ main {
 
 #heroImage {
     height: 70vh;
-    background-image: url("../media/images/heroImage1.jpeg");
+    background-image: url("../media/images/altRectangle1mirror.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,8 +172,8 @@ main {
 /* ------------------- What is Bachata ------------------- */
 
 #whatIsBachata {
-    background-image: url("../media/images/whatIsBachata2.jpeg");
-    background-position: center;
+    background-image: url("../media/images/closeUp3.jpeg");
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -237,24 +237,24 @@ main {
 }
 
 #beginnerCourses {
-    background-image: url("../media/images/heroImage1.jpeg");
-    background-position: center;
+    background-image: url("../media/images/panoramaTest2.jpeg");
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #intermediateCourses {
-    background-image: url("../media/images/heroImage1.jpeg");
-    background-position: center;
+    background-image: url("../media/images/altRectangle3.jpeg");
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #advancedCourses {
-    background-image: url("../media/images/heroImage1.jpeg");
-    background-position: center;
+    background-image: url("../media/images/panoramaTest2.jpeg");
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
