@@ -241,7 +241,7 @@ main {
 
 #beginnerCourses {
     /* background-image: url("../media/images/color11.jpeg"); /* /closeUp1color.jpeg (right bottom) */ 
-    background:linear-gradient(0deg, rgba(17, 184, 55, 0.6), rgba(17, 184, 55, 0.6)), url("../media/images/color3.jpeg");
+    background:linear-gradient(0deg, rgba(17, 184, 55, 0.6), rgba(17, 184, 55, 0.6)), url("../media/images/color11.jpeg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,7 +250,7 @@ main {
 
 #intermediateCourses {
     /* background-image: url("../media/images/color9mirror.jpg"); /* altRectangle3.jpeg (left bottom) */ 
-    background:linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)), url("../media/images/color3.jpeg");
+    background:linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)), url("../media/images/color9mirror.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,7 +259,7 @@ main {
 
 #advancedCourses {
     /* background-image: url("../media/images/color15.jpeg"); /* altRectangle2.jpeg (left) */ 
-    background:linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../media/images/color3.jpeg");
+    background:linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../media/images/color15.jpeg");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
