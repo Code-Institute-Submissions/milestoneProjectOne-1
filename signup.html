@@ -36,60 +36,46 @@
     </nav>
     <!-- /topNavigation --> 
 
-    <header >
-        
-        <!-- Hero Image -->
-        <div class="container-fluid">
-            <div class="row" id="heroImage">
-                <div class="col-12">
-                    <h1 id="heroImageHeading">Learn the beautiful art of bachata dancing</h1>
+        <!-- Sign Up Form -->
+
+        <section class="row justify-content-center nogutters workSection" style="height: 700px;">
+            <div class="col-sm-10" id="signupContainer">
+                <h2 class="sectionHeading coursesHeading">Sign Up</h2>
+                
+                <div  id="signupFormBox" style="width: 40%;">
+                    <h4>Let's get you dancing!</h4>
+                    <form id="signupForm" method="post" action="#" novalidate="novalidate">
+                        <fieldset>
+                            <legend>Personal Details</legend>
+                            <label for="fname">First Name</label>
+                            <input id="fname" class="text-input" type="text" name="fname"/>
+                            <label for="lname">Last Name</label>
+                            <input id="lname" class="text-input" type="text" name="lname"/>
+                            <label for="signup-email">Email Address</label>
+                            <input id="signup-email" class="text-input" type="email" name="email" />
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend>Choose your course:</legend>
+                                <div class="coursePreferences">
+                                    <label  class="preferenceLabel" for="road">Road</label>
+                                    <input type="radio" id="road"  name="run-type" value="Road"> 
+                                    <label  class="preferenceLabel" for="trail">Trail</label>
+                                    <input type="radio" id="trail"  name="run-type" value="Trail"> 
+                                    <label  class="preferenceLabel" for="both">Both</label>
+                                    <input type="radio" id="both"  name="run-type" value="Both"> 
+                                </div>
+                    
+                        </fieldset>
+                        <button id="signupFormButton">Let's Dance!</button>
+
+                    </form>
                 </div>
-            </div>
 
-         <!-- /.heroImage -->
+            </div> 
+        </section>
 
-        <!-- Opt-in Box -->
-
-            <div class="row justify-content-center" id="optinContainer" style="border: 1px solid;">
-                <div id="optinBox" style="border: 1px solid;">
-                    <img src="assets/media/images/optinImage.PNG" alt="" id="optinImage">
-                    <div id="optinContent">
-                        <h4>How to dance with ANYBODY, from ANYWHERE!</h4>
-                        <p>Learn the 10 unwritten rules that make it possible for you to dance with another person as if you've been dancing together forever.</p>
-                        <form class="signupForm" method="post" action="#" novalidate="novalidate">
-                            <input id="firstName" class="text-input" type="text" name="firstName" placeholder="First name">
-                            <input id="signupEmail" class="text-input" type="email" name="signupEmail" placeholder="Email">
-                            <button id="accessButton">Get Access!</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.optinBox -->
-
-    </header>
-
-    <main class="container no-padding" style="height: 200px;">
-
-        <style>
-            .test {
-                border: 1px solid;
-                height: 30px;
-            }
-        </style>
-
-        <div class="row justify-content-center">
-            <div class="col-1">19:00</div>
-            <div class="col-1 test"></div>
-            <div class="col-1 test"></div>
-            <div class="col-1 test"></div>
-            <div class="col-1 test"></div>
-            <div class="col-1 test"></div>
-            <div class="col-1 test"></div>
-            <div class="col-1 test"></div>
-        </div>
-
-    </main>
+        <!-- /.signupForm -->
 
     <!-- Footer -->
     <footer class="container-fluid">
