@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Fredoka+One|Gamja+Flower|Handlee|Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Fredoka+One|Gamja+Flower|Handlee|Indie+Flower|Great+Vibes&display=swap');
 
 html, body {
     margin: 0;
@@ -43,6 +43,17 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#heroImageHeading {
+    margin-top: 25vh;
+    margin-left: 10vw;
+    text-align: center;
+    width: 550px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 500%;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
 }
 
 /* ------------------- /.heroImage ------------------- */
