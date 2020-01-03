@@ -65,25 +65,24 @@ main {
     background-color: #0099cc;
 }
 
-#optinBox {
-    width: 1250px;
+#optinContainer div {
+    min-height: 150px;
 }
 
 #optinImage {
-    width: 250px;
-    float: left;
-    margin: 10px 15px 0 15px;
+    width: 225px;
+    float: right;
+    margin-top: 20px;
 }
 
 #optinContent {
     float: left;
-    width: 950px;
-    margin-bottom: 10px;
 }
 
 #optinContent h4 {
     color: #ffffff;
     margin-top: 10px;
+    text-shadow: 2px 2px #000000;
 }
 
 #optinContent p {
