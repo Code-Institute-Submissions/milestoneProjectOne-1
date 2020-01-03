@@ -98,7 +98,7 @@ main {
     box-sizing: border-box;
     width: 35%;
     display: inline-block;
-    margin: 5px 0;
+    margin-bottom: 5px;
 }
 
 #optinContent button {
