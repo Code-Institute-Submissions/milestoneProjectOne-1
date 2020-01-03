@@ -36,7 +36,7 @@ main {
 /* ------------------- Hero Image ------------------- */
 
 #heroImage {
-    height: 75vh;
+    height: 70vh;
     /* background-image: url("../media/images/greyHeader.jpg"); */
     background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyHeader.jpg");
     background-position: left;
@@ -63,6 +63,54 @@ main {
 
 #optinContainer {
     background-color: #0099cc;
+    height: 30vh;
+}
+
+#optinContainer img {
+    /*float: left;*/
+    width: 20%;
+    display: inline-block;
+}
+
+#optinContainer div {
+    /*float: right;*/
+    width: 70%;
+    display: inline-block;
+}
+
+#optinContainer div h4 {
+    color: #ffffff;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#optinContainer div p {
+    color: #ffffff;
+    font-style: italic;
+}
+
+#optinContainer div input {
+    padding: 0.4em 0.8em;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 30%;
+    display: inline-block;
+}
+
+#optinContainer div button {
+    padding: 0.4em 0.8em;
+    border: 1px solid #11b837;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    background-color: #11b837;
+    color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    vertical-align: middle;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 /* ------------------- /.optinBox ------------------- */
