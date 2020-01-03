@@ -65,15 +65,19 @@ main {
     background-color: #0099cc;
 }
 
+#optinBox {
+    width: 1250px;
+}
+
 #optinImage {
     width: 250px;
     float: left;
-    margin: 25px 15px 0 15px;
+    margin: 10px 15px 0 15px;
 }
 
 #optinContent {
     float: left;
-    width: 600px;
+    width: 950px;
     margin-bottom: 10px;
 }
 
