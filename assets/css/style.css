@@ -387,7 +387,7 @@ footer {
 
 /* ------------------- MEDIA QUERIES (ALL SECTIONS) ------------------- */
 
-@media screen and (max-width: 768px) {    /* Schedule for iPad */
+@media screen and (max-width: 1000px) {    /* Schedule for iPad */
     .scheduleDayColumn {
         flex: 0 0 18.5%;
         max-width: 18.5%;
@@ -403,7 +403,7 @@ footer {
 }
 
 
-@media screen and (max-width: 720px) {    /* Tablet - Bootstrap breakpoint */
+@media screen and (max-width: 768px) {    /* Tablet - Bootstrap breakpoint */
 
 /* --------------------- HEADER --------------------- */
 
@@ -411,6 +411,7 @@ footer {
         width: 80%;
         top: 35vh;
         left: 10%;
+        font-size: 350%;
     }
 
     #heroImage {
@@ -433,7 +434,7 @@ body { background-color: red; }
 /* --------------------- HEADER --------------------- */
     #heroImageHeading {
         width: 80%;
-        font-size: 350%;
+        font-size: 250%;
         top: 15vh;
         left: 10%;
     }
@@ -450,7 +451,7 @@ body { background-color: red; }
     }
 
     .textSection p {
-        margin-bottom: 16px;
+        margin: 0 0 16px 0;
         text-align: center;
     }
 
