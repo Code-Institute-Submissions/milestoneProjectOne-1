@@ -409,6 +409,29 @@ footer {
 
 @media screen and (max-width: 768px) {    /* Tablet - Bootstrap breakpoint */
 
+    #scheduleContainer {
+        margin-bottom: 10px;
+    }
+
+    .scheduleDayColumn {
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .scheduleSpacer {
+        display: none;
+    }
+
+    .dropinSocial {
+        height: 100px;
+    }
+
+    .classTime {
+        padding-top: 5px;
+    }
+
 /* --------------------- HEADER --------------------- */
 
     #heroImageHeading {
