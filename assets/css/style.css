@@ -364,11 +364,21 @@ nav .navbar-nav li a:hover {
     font-size: 90%;
 }
 
+.className:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
 .classTime {
     color: #ffffff;
     display: block;
     font-size: 80%;
     padding: 5px;
+}
+
+#schedule p {
+    width: 86%;
+    margin: 0 7% 20px 7%;
 }
 
 /* ------------------- /.schedule ------------------- */
@@ -490,7 +500,12 @@ footer {
     }
 
     .classTime {
-        padding-top: 5px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .className {
+        padding-left: 10px;
     }
 
 } /* /.tabletMediaQuery */
