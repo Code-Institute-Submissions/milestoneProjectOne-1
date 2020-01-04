@@ -59,11 +59,11 @@
                 <div class= "col-xl-8 col-md-9" id="optinContent">
                     <h4>How to dance with ANYBODY, from ANYWHERE!</h4>
                     <p>Learn the 10 unwritten rules that make it possible for you to dance with another person as if you've been dancing together forever.</p>
-                    <form class="optinForm" method="post" action="#" novalidate="novalidate">
+                    <form class="optinForm">
                             <input type="text" name="optinName" placeholder="First name">
                             <input type="email" name="optinEmail" placeholder="Email">
-                            <button>Get Access!</button>
                     </form>
+                    <button data-toggle="modal" data-target="#optinModal">Get Access!</button>
                 </div>
             </div>
         </div>
@@ -412,7 +412,28 @@
         </div>
     </footer>
     <!-- /footer -->
-   
+
+    <!-- Opt-in Modal -->
+    <div class="modal fade" id="optinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            <div class="modal-body">
+                ...
+            </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.optinModal -->
 
     <!-- Bootstrap Javascript tag -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
