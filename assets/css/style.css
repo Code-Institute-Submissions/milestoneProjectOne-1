@@ -163,6 +163,12 @@ nav .navbar-nav li a:hover {
     display: inline;
 }
 
+#optinModalContentSubHeader {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
 /* ------------------- /.optinBox ------------------- */
 
 
