@@ -32,6 +32,30 @@ main {
 
 /* ------------------- /.workStyling ------------------- */
 
+/* ------------------- Top Navigation ------------------- */
+
+nav {
+    background-color: #0099cc;
+}
+
+nav .navbar-nav li a {
+  color: #ffffff !important;
+}
+
+.dropdown-menu {
+    background-color: #0099cc;
+}
+
+.navbar-toggler {
+  border-color: #ffffff !important;
+}
+
+#navIcon {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+/* ------------------- /.topNavigation ------------------- */
 
 /* ------------------- Hero Image ------------------- */
 
@@ -119,79 +143,6 @@ main {
 /* ------------------- /.optinBox ------------------- */
 
 
-/* ------------------- Schedule ------------------- */
-
-#scheduleContainer {
-    margin-bottom: 30px;
-}
-
-.scheduleDayColumn {
-    margin: 0 3px;
-}
-
-.scheduleDayColumn h5 {
-    text-align: center;
-    width: 100%;
-    background-color: #0099cc;
-    color: #ffffff;
-    padding: 5px 0;
-    font-family: 'Baloo Bhai', sans-serif;
-    margin-bottom: 0;
-}
-
-.scheduleClass {
-    height: 100px;
-    margin: 3px 0;
-}
-
-.scheduleSpacer {
-    background-color: #ececec;
-}
-
-#scheduleSpacerTuesday, #scheduleSpacerThursday {
-    height: 197px;
-}
-
-#scheduleSpacerFriday {
-    height: 203px;
-}
-
-.beginnerClass {
-    background-color: #11b837;
-}
-
-.intermediateClass {
-    background-color: #de9313;
-    /* background-color: #ffff00; */
-}
-
-.advancedClass {
-    background-color: #ff0000;
-}
-
-.dropinSocial {
-    background-color: #c200c2;
-    height: 300px;
-}
-
-.className {
-    color: #ffffff;
-    padding: 5px;
-    display: block;
-    font-weight: bold;
-    font-size: 90%;
-}
-
-.classTime {
-    color: #ffffff;
-    display: block;
-    font-size: 80%;
-    padding: 5px;
-}
-
-/* ------------------- /.schedule ------------------- */
-
-
 /* ------------------- Text Sections ------------------- */
 
 .textSection {
@@ -270,7 +221,7 @@ main {
 
 
 
-/* ------------------- Courses Sections ------------------- */
+/* ------------------- Course Sections ------------------- */
 
 .coursesHeading {
     color: #ffffff;
@@ -334,30 +285,79 @@ main {
 /* ------------------- /.courseSections ------------------- */
 
 
-/* ------------------- Top Navigation ------------------- */
 
-nav {
+
+/* ------------------- Schedule ------------------- */
+
+#scheduleContainer {
+    margin-bottom: 30px;
+}
+
+.scheduleDayColumn {
+    margin: 0 3px;
+}
+
+.scheduleDayColumn h5 {
+    text-align: center;
+    width: 100%;
     background-color: #0099cc;
-}
-
-nav .navbar-nav li a {
-  color: #ffffff !important;
-}
-
-.dropdown-menu {
-    background-color: #0099cc;
-}
-
-.navbar-toggler {
-  border-color: #ffffff !important;
-}
-
-#navIcon {
     color: #ffffff;
-    font-size: 28px;
+    padding: 5px 0;
+    font-family: 'Baloo Bhai', sans-serif;
+    margin-bottom: 0;
 }
 
-/* ------------------- /.topNavigation ------------------- */
+.scheduleClass {
+    height: 100px;
+    margin: 3px 0;
+}
+
+.scheduleSpacer {
+    background-color: #ececec;
+}
+
+#scheduleSpacerTuesday, #scheduleSpacerThursday {
+    height: 197px;
+}
+
+#scheduleSpacerFriday {
+    height: 203px;
+}
+
+.beginnerClass {
+    background-color: #11b837;
+}
+
+.intermediateClass {
+    background-color: #de9313;
+    /* background-color: #ffff00; */
+}
+
+.advancedClass {
+    background-color: #ff0000;
+}
+
+.dropinSocial {
+    background-color: #c200c2;
+    height: 300px;
+}
+
+.className {
+    color: #ffffff;
+    padding: 5px;
+    display: block;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.classTime {
+    color: #ffffff;
+    display: block;
+    font-size: 80%;
+    padding: 5px;
+}
+
+/* ------------------- /.schedule ------------------- */
 
 
 /* ------------------- Footer ------------------- */
@@ -382,6 +382,15 @@ footer {
 }
 
 /* ------------------- /.footer ------------------- */
+
+
+
+
+
+
+
+
+
 
 
 /* ------------------- Sign Up Form ------------------- */
