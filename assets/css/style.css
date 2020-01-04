@@ -401,9 +401,10 @@ footer {
         padding: 0 3px;
     }
 
-    body {
-        background-color: blue;
+    #heroImage {
+        background-position: center;
     }
+
 }
 
 
@@ -420,7 +421,6 @@ footer {
 
     #heroImage {
         height: 84vh;
-        background-position: center;
     }
 
 /* --------------------- OPT IN BOX --------------------- */
@@ -470,10 +470,6 @@ footer {
     .classTime {
         padding-top: 5px;
     }
-
-/* MARKER */
-
-body { background-color: red; }
 
 } /* /.tabletMediaQuery */
 
@@ -539,10 +535,6 @@ body { background-color: red; }
     #beginnerCourses, #intermediateCourses, #advancedCourses {
         background-position: center;  
     }
-
-/* MARKER */
-
-body { background-color: green; }
 
 } /* /.mobileMediaQuery */
 
