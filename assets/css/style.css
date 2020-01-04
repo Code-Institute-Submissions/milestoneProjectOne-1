@@ -35,6 +35,10 @@ section {
     margin: 0;
 }
 
+.hiddenDesktop {
+        display: none;
+    }
+
 /* ------------------- /.workStyling ------------------- */
 
 /* ------------------- Top Navigation ------------------- */
@@ -58,6 +62,11 @@ nav .navbar-nav li a {
 #navIcon {
     color: #ffffff;
     font-size: 28px;
+}
+
+nav .navbar-nav li a:hover {
+  color: #0099cc !important;
+  background-color: #ffffff;
 }
 
 /* ------------------- /.topNavigation ------------------- */
@@ -386,6 +395,10 @@ footer {
     color: #ffffff;
 }
 
+.footer-social-networks li i:hover {
+  color: grey !important;
+}
+
 /* ------------------- /.footer ------------------- */
 
 
@@ -414,6 +427,10 @@ footer {
 
 
 @media screen and (max-width: 768px) {    /* Tablet - Bootstrap breakpoint */
+
+    .hiddenDesktop {
+        display: inline;
+    }
 
 /* --------------------- HEADER --------------------- */
 
