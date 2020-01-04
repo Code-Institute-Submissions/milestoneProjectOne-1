@@ -409,6 +409,45 @@ footer {
 
 @media screen and (max-width: 768px) {    /* Tablet - Bootstrap breakpoint */
 
+/* --------------------- HEADER --------------------- */
+
+    #heroImageHeading {
+        width: 80%;
+        top: 35vh;
+        left: 10%;
+        font-size: 350%;
+    }
+
+    #heroImage {
+        height: 84vh;
+        background-position: center;
+    }
+
+/* --------------------- OPT IN BOX --------------------- */
+
+    #optinContainer div {
+        text-align: center;
+    }
+
+    #optinImage {
+        width: 100%;
+        max-width: 300px;
+        float: none;
+    }
+
+    #optinContent input {
+        width: 300px;
+    }
+
+    #optinContent button {
+        display: block;
+        margin-bottom: 15px;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+/* --------------------- SCHEDULE --------------------- */
+
     #scheduleContainer {
         margin-bottom: 10px;
     }
@@ -432,23 +471,6 @@ footer {
         padding-top: 5px;
     }
 
-/* --------------------- HEADER --------------------- */
-
-    #heroImageHeading {
-        width: 80%;
-        top: 35vh;
-        left: 10%;
-        font-size: 350%;
-    }
-
-    #heroImage {
-        height: 84vh;
-        background-position: center;
-    }
-
-/* --------------------- XXXXXXXXXXXXXXXX --------------------- */
-
-
 /* MARKER */
 
 body { background-color: red; }
@@ -470,6 +492,12 @@ body { background-color: red; }
         height: 50vh;
         background-position: center;
     }
+
+/* --------------------- OPT IN BOX --------------------- */
+
+#optinContent input {
+	width: 80%;
+}
 
 /* --------------------- TEXT SECTIONS --------------------- */
 
