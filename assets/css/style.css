@@ -387,7 +387,7 @@ footer {
 
 /* ------------------- MEDIA QUERIES (ALL SECTIONS) ------------------- */
 
-@media screen and (max-width: 1000px) {    /* Schedule for iPad */
+@media screen and (max-width: 1000px) {    /* Schedule resizing for large screens (768-1000px) */
     .scheduleDayColumn {
         flex: 0 0 18.5%;
         max-width: 18.5%;
@@ -395,6 +395,10 @@ footer {
 
     .className {
         padding: 5px 3px 0 3px;
+    }
+
+    .classTime {
+        padding: 0 3px;
     }
 
     body {
