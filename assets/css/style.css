@@ -480,6 +480,10 @@ footer {
 
 /* --------------------- SCHEDULE --------------------- */
 
+    #schedule p {
+        text-align: center;
+    }
+
     #scheduleContainer {
         margin-bottom: 10px;
     }
