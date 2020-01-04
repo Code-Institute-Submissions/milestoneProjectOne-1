@@ -385,11 +385,112 @@ footer {
 
 
 
+/* ------------------- MEDIA QUERIES (ALL SECTIONS) ------------------- */
+
+@media screen and (max-width: 768px) {    /* Schedule for iPad */
+    .scheduleDayColumn {
+        flex: 0 0 18.5%;
+        max-width: 18.5%;
+    }
+
+    .className {
+        padding: 5px 3px 0 3px;
+    }
+
+    body {
+        background-color: blue;
+    }
+}
 
 
+@media screen and (max-width: 720px) {    /* Tablet - Bootstrap breakpoint */
+
+/* --------------------- HEADER --------------------- */
+
+    #heroImageHeading {
+        width: 80%;
+        top: 35vh;
+        left: 10%;
+    }
+
+    #heroImage {
+        height: 84vh;
+        background-position: center;
+    }
+
+/* --------------------- XXXXXXXXXXXXXXXX --------------------- */
 
 
+/* MARKER */
 
+body { background-color: red; }
+
+} /* /.tabletMediaQuery */
+
+
+@media screen and (max-width: 540px) {   /* Mobile - Bootstrap breakpoint */
+
+/* --------------------- HEADER --------------------- */
+    #heroImageHeading {
+        width: 80%;
+        font-size: 350%;
+        top: 15vh;
+        left: 10%;
+    }
+
+    #heroImage {
+        height: 50vh;
+        background-position: center;
+    }
+
+/* --------------------- TEXT SECTIONS --------------------- */
+
+    .sectionHeading {
+        margin: 20px 0;
+    }
+
+    .textSection p {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .textSection ul {
+        margin-left: 40px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .textSection li {
+        margin-bottom: 20px;
+    }
+
+/* --------------------- WHAT IS BACHATA --------------------- */
+
+    #whatIsBachata {
+        background-position: center;  
+    }
+
+    #whatIsBachataContent p {
+        text-align: center;
+    }
+
+/* --------------------- COURSE DESCRIPTIONS --------------------- */
+
+    .courseDescription p {
+        text-align: center;
+    }
+
+    #beginnerCourses, #intermediateCourses, #advancedCourses {
+        background-position: center;  
+    }
+
+/* MARKER */
+
+body { background-color: green; }
+
+} /* /.mobileMediaQuery */
+
+/* ------------------- /.mediaQueries ------------------- */
 
 
 
