@@ -45,6 +45,9 @@ section {
 
 nav {
     background-color: #0099cc;
+    -webkit-box-shadow: 0px 2px 11px -1px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 2px 11px -1px rgba(0,0,0,0.56);
+    box-shadow: 0px 2px 11px -1px rgba(0,0,0,0.56);
 }
 
 nav .navbar-nav li a {
@@ -389,6 +392,9 @@ nav .navbar-nav li a:hover {
 
 footer {
     background-color: #0099cc;
+    -webkit-box-shadow: 0px 2px 11px -1px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 2px 11px -1px rgba(0,0,0,0.56);
+    box-shadow: 0px 2px 11px -1px rgba(0,0,0,0.56);
 }
 
 .footer-social-networks {
