@@ -156,11 +156,6 @@ nav .navbar-nav li a:hover {
     vertical-align: middle;
     font-weight: bold;
     margin-bottom: 5px;
-    display: inline;
-}
-
-#optinContent form {
-    display: inline;
 }
 
 #optinModalContentSubHeader {
