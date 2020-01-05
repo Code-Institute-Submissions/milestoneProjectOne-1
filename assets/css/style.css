@@ -384,6 +384,10 @@ nav .navbar-nav li a:hover {
     color: #ffffff;
 }
 
+.dropinSocial span:hover {
+    text-decoration: none;
+}
+
 .classTime {
     color: #ffffff;
     display: block;
