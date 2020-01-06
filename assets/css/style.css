@@ -672,5 +672,25 @@ footer {
 
 } /* /.mobileMediaQuery */
 
+
+
+@media screen and (max-height: 500px) {   /* Mobile Height Media Query */
+
+/* --------------------- HEADER --------------------- */
+    #heroImageHeading {
+        width: 80%;
+        font-size: 300%;
+        top: 35vh;
+        left: 10%;
+    }
+
+    #heroImage {
+        height: 95vh;
+        background-position: center;
+    }
+
+} /* /.mobileHeightMediaQuery */
+
+
 /* ------------------- /.mediaQueries ------------------- */
 
