@@ -21,13 +21,6 @@ section {
 
 /* ------------------- Work styling ------------------- */
 
-.anchor {
-    display: block;
-    position: relative;
-    top: -55px;
-    visibility: hidden;
-}
-
 .workSection {
     border: 1px solid;
     margin: 0;
@@ -77,6 +70,13 @@ nav .navbar-nav li a {
 nav .navbar-nav li a:hover {
   color: #0099cc !important;
   background-color: #ffffff;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
 }
 
 /* ------------------- /.topNavigation ------------------- */
@@ -403,6 +403,42 @@ nav .navbar-nav li a:hover {
 }
 
 /* ------------------- /.schedule ------------------- */
+
+
+/* ------------------- Contact ------------------- */
+
+#contactContainer {
+    /*background-image: url("../media/images/greyWhatBachata.jpg"); */
+    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyWhatBachata.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contactContent {
+    background-color: white;
+    margin: 30px 30px 30px 20px;
+    min-width: 260px;
+    border-radius: 5%;
+}
+
+#contactContent h3 {
+    text-align: center;
+    margin: 30px 10px 0 10px;
+    font-family: 'Baloo Bhai', sans-serif;
+    text-decoration: underline;
+}
+
+#contactContent p {
+    margin: 20px;
+}
+
+#contactContent p:last-of-type {
+    margin-bottom: 30px;
+}
+
+/* ------------------- /.contact ------------------- */
 
 
 /* ------------------- Footer ------------------- */
