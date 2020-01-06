@@ -409,8 +409,8 @@ nav .navbar-nav li a:hover {
 
 #contactContainer {
     /*background-image: url("../media/images/greyWhatBachata.jpg"); */
-    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyWhatBachata.jpg");
-    background-position: right bottom;
+    background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greySignup1.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -421,6 +421,7 @@ nav .navbar-nav li a:hover {
     margin: 30px 30px 30px 20px;
     min-width: 260px;
     border-radius: 5%;
+    text-align: center;
 }
 
 #contactContent h3 {
@@ -430,13 +431,39 @@ nav .navbar-nav li a:hover {
     text-decoration: underline;
 }
 
-#contactContent p {
-    margin: 20px;
+#contactForm {
+    margin: 30px;
+    /* background-color:rgba(0, 153, 204, 0.5);
+    padding: 30px;
+    border-radius: 5%; */
 }
 
-#contactContent p:last-of-type {
-    margin-bottom: 30px;
+#contactForm input, #contactForm textarea {
+    padding: 0.4em 0.8em;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
 }
+
+#contactForm input:hover, #contactForm textarea:hover, #contactForm input:focus, #contactForm textarea:focus {
+    border-color: #0099cc;
+}
+
+#contactForm button {
+    padding: 0.4em 0.8em;
+    border: 1px solid #11b837;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    background-color: #11b837;
+    color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
 
 /* ------------------- /.contact ------------------- */
 
