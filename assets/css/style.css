@@ -529,7 +529,7 @@ footer {
 }
 
 
-@media screen and (max-width: 769px) {    /* Tablet - Bootstrap breakpoint */
+@media screen and (max-width: 767px) {    /* Tablet - Bootstrap breakpoint */
 
     .hiddenDesktop {
         display: inline;
