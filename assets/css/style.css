@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Fredoka+One|Gamja+Flower|Handlee|Indie+Flower|Great+Vibes&display=swap');
 
+/* ------------------- General ------------------- */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -19,14 +21,6 @@ section {
     padding: 0 !important;
 }
 
-/* ------------------- Work styling ------------------- */
-
-.workSection {
-    border: 1px solid;
-    margin: 0;
-    padding: 0;
-}
-
 .no-padding {
     padding: 0;
 }
@@ -39,7 +33,7 @@ section {
         display: none;
     }
 
-/* ------------------- /.workStyling ------------------- */
+/* ------------------- /.general ------------------- */
 
 /* ------------------- Top Navigation ------------------- */
 
@@ -85,7 +79,6 @@ nav .navbar-nav li a:hover {
 
 #heroImage {
     height: 75vh;
-    /* background-image: url("../media/images/greyHeader.jpg"); */
     background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyHeader.jpg");
     background-position: left;
     background-repeat: no-repeat;
@@ -218,7 +211,6 @@ nav .navbar-nav li a:hover {
 /* ------------------- What is Bachata ------------------- */
 
 #whatIsBachata {
-    /*background-image: url("../media/images/greyWhatBachata.jpg"); */
     background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyWhatBachata.jpg");
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -284,8 +276,6 @@ nav .navbar-nav li a:hover {
 }
 
 #beginnerCourses {
-    /* background-image: url("../media/images/greyBeginner.jpg"); */ 
-    /*background:linear-gradient(0deg, rgba(17, 184, 55, 0.6), rgba(17, 184, 55, 0.6)), url("../media/images/greyBeginner.jpg");*/
     background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyBeginner.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -294,8 +284,6 @@ nav .navbar-nav li a:hover {
 }
 
 #intermediateCourses {
-    /* background-image: url("../media/images/greyIntermediate.jpg"); */ 
-    /*background:linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)), url("../media/images/greyIntermediate.jpg");*/
     background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyIntermediate.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -304,8 +292,6 @@ nav .navbar-nav li a:hover {
 }
 
 #advancedCourses {
-    /* background-image: url("../media/images/greyAdvanced.jpg"); */ 
-    /* background:linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url("../media/images/greyAdvanced.jpg"); */
     background:linear-gradient(0deg, rgba(0, 153, 204, 0.5),rgba(0, 153, 204, 0.5)), url("../media/images/greyAdvanced.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -361,7 +347,6 @@ nav .navbar-nav li a:hover {
 
 .intermediateClass {
     background-color: #de9313;
-    /* background-color: #ffff00; */
 }
 
 .advancedClass {
