@@ -412,7 +412,11 @@
                 <div class="col-lg-10" id="contactContainer">
                     <div class="row justify-content-end no-gutters">
                         <div class="col-lg-5 col-md-7" id="contactContent">
-                            <h3>Contact Us</h3>
+                            <h3>Location & Contact</h3>
+                            <span>Location</span>
+                            <p>If you want to visit our school we are located at Fakestreet 13, 111 22 Stockholm. It's a ca 5 min walk from the closest subway station: Hötorget.</p>
+                            <span>Contact</span>
+                            <p>To sign up for one of our courses click on the links in the schedule above. For all other inquiries please use the form below.</p>
                             <form id="contactForm">
                                 <input type="text" class="contactFormField" id="contactInputName" name="Name" placeholder="Name" required>
                                 <input type="text" class="contactFormField" id="contactInputPhone" name="Phone" placeholder="Phone">
@@ -470,6 +474,32 @@
 
      <!-- /.optinModal -->
 
+     <!-- Contact Form Modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="contactFormModal">
+        <br><br><br><br><br>
+        <div class="modal-dialog" role="document">
+            <br><br><br>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Thank You for Testing this Website!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            <div class="modal-body">
+                <p id="optinModalContentSubHeader">About This Contact Form</p>
+                <p>This site is an example website for a fictional business. Ergo this contact form does not collect any personal data or send any information.</p>
+            </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- /.contactFormModal -->
+
     <!-- Footer Modal -->
 
         <div class="modal fade" tabindex="-1" role="dialog" id="footerModal">
@@ -509,6 +539,17 @@
 
         $("#optinForm").on('submit', function(e) {
             $("#optinFormModal").modal('show');
+            e.preventDefault();
+        })
+    </script>
+    <!-- /.modalJavascriptTag -->
+
+    <!-- Modal Javascript Tag -->
+    <script>
+        // Open modal on form submit Javascript modified from: https://codepen.io/hanapiers/pen/EXNrGP
+
+        $("#contactForm").on('submit', function(e) {
+            $("#contactFormModal").modal('show');
             e.preventDefault();
         })
     </script>
