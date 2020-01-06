@@ -21,6 +21,13 @@ section {
 
 /* ------------------- Work styling ------------------- */
 
+.anchor {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
+}
+
 .workSection {
     border: 1px solid;
     margin: 0;
