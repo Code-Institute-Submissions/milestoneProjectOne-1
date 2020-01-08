@@ -106,3 +106,24 @@ Most external links will open in a new tab using 'target="_blank"'. The phone an
 ## Deployment
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. Link to deployed site: [petter0619.github.io/milestoneProjectOne](https://petter0619.github.io/milestoneProjectOne)
+
+
+## Credit
+
+### Content 
+* Most of the content used in the “Why Dance” section came from the following article: https://rebeccabrightly.com/top-10-reasons-nerdy-person-learn-dance/, with some alteration by me.
+* The remaining content was written by me,
+
+### Media
+* The background images used all came from stock.adobe.com. A greyscale filter was applied to each one prior to upload using the Lunapic.com online photo editing tool for a better effect after applying the blue overlay.
+* The opt-in image was the thumbnail image of the Youtube video “Top 10 Social Dance Etiquette Tips” by Interfusion Festival: https://www.youtube.com/watch?v=gj7_f8BAeRw&t=9s 
+* The icons used on the site (menu, footer and list bullets) all came from Fontawesome.com
+* The linked to demo video was created by Dance Space and Cornel Rodrigues and can be found on Youtube here: https://www.youtube.com/watch?v=hCMAFEkyibc. 
+
+### Acknowledgements: 
+* [w3schools.com](https://www-w3schools.com) was often used as property reference throughout the project.
+* [Fontawesome](https://www.fontawesome.com) provided the tutorial to replace the default list bullets with their icons.
+* The Javascript used to open the Bootstrap modal upon form submission came from the following [Stack Overflow tutorial](https://stackoverflow.com/questions/46054499/open-modal-bootstrap-on-submit-form)
+* [iDance.se](https://www.idance.se) - For the color scheme
+* [Dansasalsa.se](https://www.dansasalsa.se) - For the design of the schedule section 
+* [Brendon.com](https://www.brendon.com) - For the layout of header hero image and opt-in box
