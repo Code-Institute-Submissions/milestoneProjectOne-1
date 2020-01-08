@@ -57,3 +57,31 @@ Using background images for every other section makes the site look better than 
 Boxes with white backgrounds were used for text in image sections because text that is overlaid directly on an image is harder to read.
 
 The design for the weekly schedule was chosen because it provides a relatively clear overview of when the classes take place without incorporating a lot of blank space which a design that shows a full 24 hour day would have (since no classes take place during the daytime).
+
+
+## Technologies
+
+Main:
+1. HTML
+2. CSS
+3. Bootstrap (version 4.4.1)
+
+Some Javascript was also added in order to make the modals appear upon submission of the contact and opt-in forms.
+
+
+## Features
+
+### Existing features
+
+* Responsive design. 
+* Fixed top navigation (built using Bootstrap) that collapses into a so called “burger menu” on smaller devices
+* Responsive opt-in and contact forms.
+* The schedule is custom coded but was inspired by a design from the website Dansasalsa.se
+
+
+### Features left to implement
+
+* If the website was to be developed further some features I would like to add would be:
+* On mobile devices the longer text sections become very scroll intensive. Adding a “read more” function that collapses part of the text would be useful on smaller devices.
+* Have a message window open when clicking the email icon in the footer.
+* If this was an actual dance school I would use a custom demo video that would be played in a modal on the website. Linked to the video on Youtube because it is third party content.
