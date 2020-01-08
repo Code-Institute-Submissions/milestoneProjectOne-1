@@ -1,7 +1,6 @@
-# Code Institute
+#iDeal Bachata School
 
-Welcome petter0619,
+This is a website for a fictional dance school that teaches bachata. The website is primarily meant for prospective students, providing information about the courses on offer, along with a schedule, as well as copy convincing prospective students why they should dance, and why they should choose this school over others. 
 
-We have preinstalled all of the tools you need to get started.
+This was created as an assignment for the Code Institute Full Stack Web Developer course following their modules on HTML, CSS, Bootstrap and User Centric Front-End Development.
 
-Happy coding!
