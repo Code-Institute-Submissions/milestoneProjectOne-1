@@ -45,7 +45,8 @@ As for the structure of the content I decided to go with was to have a large hea
 form that exchanges some form of information that is valuable to someone who dances (or is thinking about) dancing bachata in exchange 
 for a way to stay in touch with them (in this case email).
 
-This will be followed by copy that presents the benefits of dancing, then a brief overview of what bachata is, followed by copy telling the potential customer what makes this dance school different.
+This will be followed by copy that presents the benefits of dancing, then a brief overview of what bachata is, followed by copy 
+telling the potential customer what makes this dance school different.
 
 This will be followed by brief descriptions of the different classes on offer.
 
@@ -61,13 +62,16 @@ This will be followed by brief descriptions of the different classes on offer.
 
 ### Surface
 
-The blue/white/grey color scheme that was used is the same color scheme used by the website of the dance school iDance (idance.se). I chose this color scheme because I thought it looked good. 
+The blue/white/grey color scheme that was used is the same color scheme used by the website of the dance school iDance (idance.se). 
+I chose this color scheme because I thought it looked good. 
 
-Using background images for every other section makes the site look better than simply having one long white page. It also provides a break for the eyes as opposed to having image after image which I find can become slightly overwhelming.
+Using background images for every other section makes the site look better than simply having one long white page. It also provides a 
+break for the eyes as opposed to having image after image which I find can become slightly overwhelming.
 
 Boxes with white backgrounds were used for text in image sections because text that is overlaid directly on an image is harder to read.
 
-The design for the weekly schedule was chosen because it provides a relatively clear overview of when the classes take place without incorporating a lot of blank space which a design that shows a full 24 hour day would have (since no classes take place during the daytime).
+The design for the weekly schedule was chosen because it provides a relatively clear overview of when the classes take place without 
+incorporating a lot of blank space which a design that shows a full 24 hour day would have (since no classes take place during the daytime).
 
 
 ## Technologies
@@ -100,13 +104,22 @@ Some Javascript was also added in order to make the modals appear upon submissio
 
 ## Testing
 
-If you try to submit the opt-in form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name' and 'email' fields, so if those fields are not filled in, the form will not submit. If all field are valid a modal will appear thanking the user for testing the website and explain that it is a fictitious website. This was tested by manually filling in and submitting the form.
+If you try to submit the opt-in form with an invalid email address, there will be an error noting the invalid email address. Furthermore, 
+the 'required' attribute is added to the 'name' and 'email' fields, so if those fields are not filled in, the form will not submit. If all 
+field are valid a modal will appear thanking the user for testing the website and explain that it is a fictitious website. This was tested 
+by manually filling in and submitting the form.
 
-If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. If all field are valid a modal will appear thanking the user for testing the website and explain that it is a fictitious website. This was tested by manually filling in and submitting the form.
+If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, 
+the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not 
+submit. If all field are valid a modal will appear thanking the user for testing the website and explain that it is a fictitious website. 
+This was tested by manually filling in and submitting the form.
 
-All internal links in the top menu that point to sections of the page have been manually tested to ensure that they are pointing to the correct destination.
+All internal links in the top menu that point to sections of the page have been manually tested to ensure that they are pointing to the 
+correct destination.
 
-Most external links will open in a new tab using 'target="_blank"'. The phone and email icons in the footer open modals that thank the user for testing the website and explain that it is a fictitious website. All links have been manually tested to ensure that they are pointing to the correct destination.
+Most external links will open in a new tab using 'target="_blank"'. The phone and email icons in the footer open modals that thank the 
+user for testing the website and explain that it is a fictitious website. All links have been manually tested to ensure that they are 
+pointing to the correct destination.
 
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 5: Chrome and Safari, iPad 1: Safari) to ensure compatibility and responsiveness. Most responsiveness testing was done using the Developer Tools in Google Chrome. During the testing phase, I realized the following: 
 * The header did not look right when viewed in landscape view on mobile devices because the width used for the mobile media query was designed for when the device was viewed in portrait mode. Another media query was added to address this issue.
@@ -116,7 +129,8 @@ This site was tested across multiple browsers (Chrome, Safari, Internet Explorer
 
 ## Deployment
 
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. Link to deployed site: [petter0619.github.io/milestoneProjectOne](https://petter0619.github.io/milestoneProjectOne)
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new 
+commits to the master branch. Link to deployed site: [petter0619.github.io/milestoneProjectOne](https://petter0619.github.io/milestoneProjectOne)
 
 
 ## Credit
