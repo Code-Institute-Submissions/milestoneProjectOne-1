@@ -235,9 +235,25 @@ nav .navbar-nav li a:hover {
 #whatIsBachataContent p {
     margin: 20px;
 }
-
+/*
 #whatIsBachataContent p:last-of-type {
     margin-bottom: 30px;
+}*/
+
+.demoButton {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    padding: 0.4em 0.8em;
+    border: 1px solid #11b837;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    background-color: #11b837;
+    color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    vertical-align: middle;
+    font-weight: bold;
 }
 
 /* ------------------- /.whatIsBachata ------------------- */
