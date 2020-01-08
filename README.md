@@ -97,10 +97,10 @@ All internal links in the top menu that point to sections of the page have been 
 
 Most external links will open in a new tab using 'target="_blank"'. The phone and email icons in the footer open modals that thank the user for testing the website and explain that it is a fictitious website. All links have been manually tested to ensure that they are pointing to the correct destination.
 
-* This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 5: Chrome and Safari, iPad 1: Safari) to ensure compatibility and responsiveness. Most responsiveness testing was done using the Developer Tools in Google Chrome. During the testing phase, I realized the following: 
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 5: Chrome and Safari, iPad 1: Safari) to ensure compatibility and responsiveness. Most responsiveness testing was done using the Developer Tools in Google Chrome. During the testing phase, I realized the following: 
 * The header did not look right when viewed in landscape view on mobile devices because the width used for the mobile media query was designed for when the device was viewed in portrait mode. Another media query was added to address this issue.
 * The background images, as well as some of the layout properties will not render on the iPad 1 Safari browser. This issue is still present.
-
+* Background-attachment: fixed; was not compatible with the Safari browser on iPhone 5; the background photos appeared zoomed-in and blurry. To fix this, the background-attachment: scroll property value was added in the media query for screens belo 540px. No access to current iPad in order to test if this is an issue there (Chrome Developer Tools view for iPad and iPhone 5 both rendered background images as expected with background-position: fixed;).
 
 
 ## Deployment
@@ -128,6 +128,7 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 * [iDance.se](https://www.idance.se) - For the color scheme
 * [Dansasalsa.se](https://www.dansasalsa.se) - For the design of the schedule section 
 * [Brendon.com](https://www.brendon.com) - For the layout of header hero image and opt-in box
+* The [Code Institute example Readme.md file](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md) for suggesting that background-attachment: fixed; was the reason background photos appeared blurry on iPhone5 Safari browser. I thought it was a case of older browser not being able to handle photo.
 
 ## Thank You
 
