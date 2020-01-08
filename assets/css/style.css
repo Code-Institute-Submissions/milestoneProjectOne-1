@@ -235,10 +235,6 @@ nav .navbar-nav li a:hover {
 #whatIsBachataContent p {
     margin: 20px;
 }
-/*
-#whatIsBachataContent p:last-of-type {
-    margin-bottom: 30px;
-}*/
 
 .demoButton {
     width: 60%;
@@ -610,6 +606,10 @@ footer {
 
 
 @media screen and (max-width: 540px) {   /* Mobile - Bootstrap breakpoint */
+
+#heroImage, #whatIsBachata, #beginnerCourses, #intermediateCourses, #advancedCourses, #contactContainer {
+    background-attachment: scroll;
+}
 
 /* --------------------- HEADER --------------------- */
     #heroImageHeading {
