@@ -115,14 +115,15 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 * The remaining content was written by me,
 
 ### Media
-* The background images used all came from stock.adobe.com. A greyscale filter was applied to each one prior to upload using the Lunapic.com online photo editing tool for a better effect after applying the blue overlay.
-* The opt-in image was the thumbnail image of the Youtube video “Top 10 Social Dance Etiquette Tips” by Interfusion Festival: https://www.youtube.com/watch?v=gj7_f8BAeRw&t=9s 
-* The icons used on the site (menu, footer and list bullets) all came from Fontawesome.com
-* The linked to demo video was created by Dance Space and Cornel Rodrigues and can be found on Youtube here: https://www.youtube.com/watch?v=hCMAFEkyibc. 
+* The background images used all came from [stock.adobe.com](https://stock.adobe.com). A greyscale filter was applied to each one prior to upload using the [Lunapic.com](https://www.lunapic.com) online photo editing tool for a better effect after applying the blue overlay.
+* The opt-in image was the thumbnail image of the Youtube video “[Top 10 Social Dance Etiquette Tips](https://www.youtube.com/watch?v=gj7_f8BAeRw)” by Interfusion Festival 
+* The icons used on the site (menu, footer and list bullets) all came from [Fontawesome.com](https://www.fontawesome.com).
+* The linked to demo video was created by Dance Space and Cornel Rodrigues and can be found on [Youtube here](https://www.youtube.com/watch?v=hCMAFEkyibc) 
 
 ### Acknowledgements: 
 * [w3schools.com](https://www-w3schools.com) was often used as property reference throughout the project.
 * [Fontawesome](https://www.fontawesome.com) provided the tutorial to replace the default list bullets with their icons.
+* The idea of how to offset the top navigation anchor links to adjust for the fixed top menu came from the following [Stack Overflow tutorial](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
 * The Javascript used to open the Bootstrap modal upon form submission came from the following [Stack Overflow tutorial](https://stackoverflow.com/questions/46054499/open-modal-bootstrap-on-submit-form)
 * [iDance.se](https://www.idance.se) - For the color scheme
 * [Dansasalsa.se](https://www.dansasalsa.se) - For the design of the schedule section 
