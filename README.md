@@ -85,3 +85,24 @@ Some Javascript was also added in order to make the modals appear upon submissio
 * On mobile devices the longer text sections become very scroll intensive. Adding a “read more” function that collapses part of the text would be useful on smaller devices.
 * Have a message window open when clicking the email icon in the footer.
 * If this was an actual dance school I would use a custom demo video that would be played in a modal on the website. Linked to the video on Youtube because it is third party content.
+
+
+## Testing
+
+If you try to submit the opt-in form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name' and 'email' fields, so if those fields are not filled in, the form will not submit. If all field are valid a modal will appear thanking the user for testing the website and explain that it is a fictitious website. This was tested by manually filling in and submitting the form.
+
+If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. If all field are valid a modal will appear thanking the user for testing the website and explain that it is a fictitious website. This was tested by manually filling in and submitting the form.
+
+All internal links in the top menu that point to sections of the page have been manually tested to ensure that they are pointing to the correct destination.
+
+Most external links will open in a new tab using 'target="_blank"'. The phone and email icons in the footer open modals that thank the user for testing the website and explain that it is a fictitious website. All links have been manually tested to ensure that they are pointing to the correct destination.
+
+* This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 5: Chrome and Safari, iPad 1: Safari) to ensure compatibility and responsiveness. Most responsiveness testing was done using the Developer Tools in Google Chrome. During the testing phase, I realized the following: 
+* The header did not look right when viewed in landscape view on mobile devices because the width used for the mobile media query was designed for when the device was viewed in portrait mode. Another media query was added to address this issue.
+* The background images, as well as some of the layout properties will not render on the iPad 1 Safari browser. This issue is still present.
+
+
+
+## Deployment
+
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. Link to deployed site: [petter0619.github.io/milestoneProjectOne](https://petter0619.github.io/milestoneProjectOne)
