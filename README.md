@@ -128,3 +128,8 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 * [iDance.se](https://www.idance.se) - For the color scheme
 * [Dansasalsa.se](https://www.dansasalsa.se) - For the design of the schedule section 
 * [Brendon.com](https://www.brendon.com) - For the layout of header hero image and opt-in box
+
+## Thank You
+
+Thank you for checking out my website!
+//Petter Carlsson
