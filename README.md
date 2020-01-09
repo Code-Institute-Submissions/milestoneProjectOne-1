@@ -39,7 +39,7 @@ business should have:
 A one-page layout was chosen so that users will not have to load or navigate around a variety of different pages to find the 
 information they are looking for. A one-page layout also presents all the information in its optimum order.
 
-The top navigation will be fixed and provide links that allow the user to quickly jump to the sections they are interested in.
+The top navigation will be fixed to the top of the viewport and provide links that allow the user to quickly jump to the sections they are interested in.
 
 As for the structure of the content I decided to go with was to have a large header with a hero image, incorporating an opt-in 
 form that exchanges some form of information that is valuable to someone who dances (or is thinking about) dancing bachata in exchange 
@@ -91,12 +91,12 @@ Some Javascript was also added in order to make the modals appear upon submissio
 * Responsive design. 
 * Fixed top navigation (built using Bootstrap) that collapses into a so called “burger menu” on smaller devices
 * Responsive opt-in and contact forms.
-* The schedule is custom coded but was inspired by a design from the website Dansasalsa.se
+* The schedule is custom coded but was inspired by a design from the website Dansasalsa.se and contains links to the booking platform dans.se that most dance schools in Stockholm use
 
 
 ### Features left to implement
 
-* If the website was to be developed further some features I would like to add would be:
+If the website was to be developed further some features I would like to add would be:
 * On mobile devices the longer text sections become very scroll intensive. Adding a “read more” function that collapses part of the text would be useful on smaller devices.
 * Have a message window open when clicking the email icon in the footer.
 * If this was an actual dance school I would use a custom demo video that would be played in a modal on the website. Linked to the video on Youtube because it is third party content.
@@ -121,7 +121,8 @@ Most external links will open in a new tab using 'target="_blank"'. The phone an
 user for testing the website and explain that it is a fictitious website. All links have been manually tested to ensure that they are 
 pointing to the correct destination.
 
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 5: Chrome and Safari, iPad 1: Safari) to ensure compatibility and responsiveness. Most responsiveness testing was done using the Developer Tools in Google Chrome. During the testing phase, I realized the following: 
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 5: Chrome and Safari, iPad 1: Safari) to ensure 
+compatibility and responsiveness. Most responsiveness testing was done using the Developer Tools in Google Chrome during the design phase. During the testing phase, I realized the following: 
 * The header did not look right when viewed in landscape view on mobile devices because the width used for the mobile media query was designed for when the device was viewed in portrait mode. Another media query was added to address this issue.
 * The background images, as well as some of the layout properties will not render on the iPad 1 Safari browser. This issue is still present.
 * Background-attachment: fixed; was not compatible with the Safari browser on iPhone 5; the background photos appeared zoomed-in and blurry. To fix this, the background-attachment: scroll property value was added in the media query for screens belo 540px. No access to current iPad in order to test if this is an issue there (Chrome Developer Tools view for iPad and iPhone 5 both rendered background images as expected with background-position: fixed;).
@@ -132,6 +133,7 @@ This site was tested across multiple browsers (Chrome, Safari, Internet Explorer
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new 
 commits to the master branch. Link to deployed site: [petter0619.github.io/milestoneProjectOne](https://petter0619.github.io/milestoneProjectOne)
 
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/petter0619/milestoneProjectOne.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credit
 
